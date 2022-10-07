@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ---------------ESTILOS GENERALES BODY---------------- */
+body{
+    background-color: #121216;
+    color: #FFFFFF;
+}
+
+/* ---------------ESTILOS HEADER (KEVIN)---------------- */
+
+/* ---------------ESTILOS MAIN (KEVIN)---------------- */
+
+/* ---------------ESTILOS MAIN (CATA)---------------- */
+
+/* ---------------ESTILOS MAIN (ANDRE)---------------- */
+
+/* ---------------ESTILOS FOOTER (ANDRE)---------------- */
+.imgFooterApp{
+    text-align: center;
+    margin: 2rem;
+}
+.imgFooterApp img{
+    width: 150px;
+    height: 65px;
+}
+.listasFooter{
+    display: flex;
+    justify-content: space-around;
+}
+
+footer h5{
+    font-size: 1.2rem;
+}
+.listaFooter{
+    list-style-type: none;
+}
+.listaFooter li{
+    margin: 1rem;
+    color: #928683;
+    
+}
+.listaFooter li a{
+    margin: 1rem;
+    color: #928683;
+    text-decoration: none;
+}
