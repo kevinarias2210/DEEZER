@@ -23,17 +23,23 @@ body{
 
 
 .header__contenedor--oferta{
-
+    width: 250px;
+    padding: 30px 15px;
+    border: 1px solid white;
+    border-radius: 10px;
 }
 
 
 .header__contenedor--p{
-
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 
 .header__contenedor--enlace{
-
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -43,7 +49,7 @@ body{
 
 
 .header__contenedor--fl{
-
+    width: 5%;
 }
 
 
