@@ -16,7 +16,16 @@ body{
 /* ---------------ESTILOS MAIN (CATA)---------------- */
 
 /* ---------------ESTILOS MAIN (ANDRE)---------------- */
-
+.novedades{
+    text-align: center;
+    margin: 30px 165px;
+}
+.faq{
+    margin: 30px 165px;
+}
+.ultimoP{
+    margin: 80px 165px;
+}
 /* ---------------ESTILOS FOOTER (ANDRE)---------------- */
 .imgFooterApp{
     text-align: center;
@@ -46,4 +55,7 @@ footer h5{
     margin: 1rem;
     color: #928683;
     text-decoration: none;
+}
+.imgFooterFinal img{
+    width: 150px;
 }
