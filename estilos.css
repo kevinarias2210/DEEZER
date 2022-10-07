@@ -10,7 +10,51 @@ body{
 }
 
 /* ---------------ESTILOS HEADER (KEVIN)---------------- */
+.header{
+    width: 100%;
+}
 
+
+.header__contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__contenedor--oferta{
+
+}
+
+
+.header__contenedor--p{
+
+}
+
+
+.header__contenedor--enlace{
+
+}
+
+
+.header__contenedor--flecha{
+
+}
+
+
+.header__contenedor--fl{
+
+}
+
+
+.header__contenedor--img{
+
+}
+
+
+.header__contenedor--tigo{
+
+}
 /* ---------------ESTILOS MAIN (KEVIN)---------------- */
 
 /* ---------------ESTILOS MAIN (CATA)---------------- */
