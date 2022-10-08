@@ -93,7 +93,67 @@ body{
     color: white;
 }
 /* ---------------ESTILOS MAIN (KEVIN)---------------- */
+.main{
+    width: 100%;
+}
 
+
+.main__contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main__contenedor--items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.main__contenedor-titulo{
+    font-size: 30px;
+}
+
+
+.main__contenedor--miniItems{
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px 80px 16px;
+    border-radius: 20px;
+    background: linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
+}
+
+
+.main__contenedor--subtitulos{
+
+}
+
+
+
+.main__contenedor--parrafo{
+
+}
+
+
+main__contenedor--button{
+
+}
+
+
+.main__contenedor--p{
+
+}
+
+
+.main__contenedor--enlace{
+
+}
 /* ---------------ESTILOS MAIN (CATA)---------------- */
 
 /* ---------------ESTILOS MAIN (ANDRE)---------------- */
