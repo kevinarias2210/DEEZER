@@ -68,14 +68,15 @@ body{
 
 
 .header__contenedor--logo{
-    width: 50%;
+    width: 73%;
     display: flex;
     justify-content: center;
 }
 
 
 .header__contenedor--dez{
-    width: 15%;
+    width: 10%;
+    margin-right: 100px;
 }
 
 
