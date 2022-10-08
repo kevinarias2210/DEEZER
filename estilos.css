@@ -16,6 +16,7 @@ body{
 
 
 .header__contenedor{
+    padding: 20px 45px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,8 +25,8 @@ body{
 
 .header__contenedor--oferta{
     width: 250px;
-    padding: 30px 15px;
-    border: 1px solid white;
+    padding: 30px 15px 20px 15px;
+    border: 1px solid #52525d;
     border-radius: 10px;
 }
 
@@ -38,28 +39,57 @@ body{
 
 
 .header__contenedor--enlace{
+    margin-right: 2px;
     text-decoration: none;
     color: white;
 }
 
 
 .header__contenedor--flecha{
-
+    margin-bottom: 20px;
 }
 
 
 .header__contenedor--fl{
-    width: 5%;
+    width: 3%;
+    height: 10px;
 }
 
 
 .header__contenedor--img{
-
+    display: flex;
+    justify-content: center;
 }
 
 
 .header__contenedor--tigo{
+    width: 10%;
+}
 
+
+.header__contenedor--logo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.header__contenedor--dez{
+    width: 15%;
+}
+
+
+.header__contenedor--boton{
+
+}
+
+
+.header__contenedor--b{
+    padding: 14px 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #121216;
+    color: white;
 }
 /* ---------------ESTILOS MAIN (KEVIN)---------------- */
 
