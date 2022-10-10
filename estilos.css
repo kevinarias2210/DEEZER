@@ -141,6 +141,7 @@ body{
 
 
 .main__contenedor--miniItems{
+    width: 32%;
     height: 285px;
     display: flex;
     align-items: center;
@@ -195,7 +196,7 @@ body{
 
 
 .main__contenedor--miniItems2{
-    width: 40%;
+    width: 32%;
     height: 430px;
     display: flex;
     align-items: center;
@@ -234,7 +235,7 @@ body{
 
 
 .main__contenedor--miniItems3{
-    width: 40%;
+    width: 32%;
     height: 180px;
     display: flex;
     align-items: center;
@@ -257,6 +258,20 @@ body{
     width: 80%;
     margin: 20px 0;
     text-align: center;
+}
+
+
+.main__contenedor--miniItems4{
+    width: 32%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+    padding: 24px 35px 16px;
+    border-radius: 20px;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
 }
 /* ---------------ESTILOS MAIN (CATA)---------------- */
 
