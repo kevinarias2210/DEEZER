@@ -6,13 +6,187 @@
 /* ---------------ESTILOS GENERALES BODY---------------- */
 body{
     background-color: #121216;
+    font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
 
 /* ---------------ESTILOS HEADER (KEVIN)---------------- */
+.header{
+    width: 100%;
+}
 
+
+.header__contenedor{
+    padding: 20px 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header__contenedor--oferta{
+    width: 250px;
+    padding: 30px 15px 20px 15px;
+    border: 1px solid #52525d;
+    border-radius: 10px;
+}
+
+
+.header__contenedor--p{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.header__contenedor--enlace{
+    margin-right: 2px;
+    text-decoration: none;
+    color: white;
+}
+
+
+.header__contenedor--flecha{
+    margin-bottom: 20px;
+}
+
+
+.header__contenedor--fl{
+    width: 3%;
+    height: 10px;
+}
+
+
+.header__contenedor--img{
+    display: flex;
+    justify-content: center;
+}
+
+
+.header__contenedor--tigo{
+    width: 10%;
+}
+
+
+.header__contenedor--logo{
+    width: 73%;
+    display: flex;
+    justify-content: center;
+}
+
+
+.header__contenedor--dez{
+    width: 10%;
+    margin-right: 100px;
+}
+
+
+.header__contenedor--boton{
+
+}
+
+
+.header__contenedor--b{
+    padding: 14px 12px;
+    border: 1px solid white;
+    border-radius: 20px;
+    background-color: #121216;
+    color: white;
+}
 /* ---------------ESTILOS MAIN (KEVIN)---------------- */
+.main{
+    width: 100%;
+}
 
+
+.main__contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.main__contenedor--items{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.main__contenedor-titulo{
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+
+.main__contenedor--sombra{
+    height: 285px;
+    width: 64%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px 35px 16px;
+    border-radius: 20px;
+    background: linear-gradient(126.05deg,rgb(241 42 42/90%) 25.95%,#bf1ceb 44.46%,#06ad57 65.35%,rgb(6 173 87/60%) 76.7%);
+    filter: blur(104px);
+    z-index: -1;
+}
+
+
+.main__contenedor--miniItems{
+    height: 285px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 24px 35px 16px;
+    border-radius: 20px;
+    background: linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
+}
+
+
+.main__contenedor--subtitulos{
+    font-size: 35px;
+    margin-bottom: 20px;
+}
+
+
+
+.main__contenedor--parrafo{
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.main__contenedor--button{
+    width: 63%;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    border: 1px solid #121216;
+    border-radius: 25px;
+    background-color: #121216;
+    color: white;
+}
+
+.main__contenedor--button:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
+
+.main__contenedor--p{
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+
+.main__contenedor--enlace{
+    color: white;
+}
 /* ---------------ESTILOS MAIN (CATA)---------------- */
 
 /* ---------------ESTILOS MAIN (ANDRE)---------------- */
