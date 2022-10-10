@@ -6,6 +6,7 @@
 /* ---------------ESTILOS GENERALES BODY---------------- */
 body{
     background-color: #121216;
+    font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
 
@@ -114,45 +115,61 @@ body{
 
 
 .main__contenedor-titulo{
-    font-size: 30px;
+    font-size: 38px;
+    margin-bottom: 50px;
 }
 
 
 .main__contenedor--miniItems{
-    height: 250px;
+    height: 285px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding: 24px 80px 16px;
+    padding: 24px 35px 16px;
     border-radius: 20px;
     background: linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
 }
 
 
 .main__contenedor--subtitulos{
-
+    font-size: 35px;
+    margin-bottom: 20px;
 }
 
 
 
 .main__contenedor--parrafo{
-
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
 }
 
 
-main__contenedor--button{
-
+.main__contenedor--button{
+    width: 63%;
+    margin-bottom: 20px;
+    padding: 20px 20px;
+    border: 1px solid #121216;
+    border-radius: 25px;
+    background-color: #121216;
+    color: white;
 }
 
+.main__contenedor--button:hover{
+    border: 1px solid white;
+    background-color: white;
+    color: black;
+}
 
 .main__contenedor--p{
-
+    margin-bottom: 5px;
+    font-size: 15px;
 }
 
 
 .main__contenedor--enlace{
-
+    color: white;
 }
 /* ---------------ESTILOS MAIN (CATA)---------------- */
 
