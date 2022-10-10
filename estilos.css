@@ -16,6 +16,27 @@ body{
 /* ---------------ESTILOS MAIN (CATA)---------------- */
 
 /* ---------------ESTILOS MAIN (ANDRE)---------------- */
+.catalogo{
+    text-align: center;
+    margin: 30px 165px;
+}
+.listaCatalogo{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.listaCatalogo li{
+    margin: 2rem;
+    width: 200px;
+}
+.listaCatalogo a{
+    justify-content: center;
+}
+.listaCatalogo img{
+    margin: 2rem;
+    width: 200px;
+    border-radius: 0.2rem;
+}
 .novedades{
     text-align: center;
     margin: 30px 165px;
