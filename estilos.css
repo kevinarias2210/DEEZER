@@ -124,6 +124,10 @@ body{
     height: 285px;
     width: 64%;
     position: absolute;
+    top: 156px;
+    right: 0;
+    left: 277px;
+    bottom: 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -131,7 +135,7 @@ body{
     padding: 24px 35px 16px;
     border-radius: 20px;
     background: linear-gradient(126.05deg,rgb(241 42 42/90%) 25.95%,#bf1ceb 44.46%,#06ad57 65.35%,rgb(6 173 87/60%) 76.7%);
-    filter: blur(104px);
+    filter: blur(184px);
     z-index: -1;
 }
 
@@ -142,6 +146,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    margin-bottom: 45px;
     padding: 24px 35px 16px;
     border-radius: 20px;
     background: linear-gradient(57.8deg,#6b42b4 9.75%,#943aab 95.44%);
@@ -186,6 +191,72 @@ body{
 
 .main__contenedor--enlace{
     color: white;
+}
+
+
+.main__contenedor--miniItems2{
+    width: 40%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+    padding: 24px 35px 16px;
+    border-radius: 20px;
+    background: linear-gradient(53.13deg,#dc4c11 10.71%,#feab2e);
+}
+
+
+.main__contenedor--parrafo2{
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.main__contenedor--parrafo3{
+    width: 80%;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+
+.main__contenedor--titulo{
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+
+.main__contenedor--luego{
+    margin-bottom: 20px;
+}
+
+
+.main__contenedor--miniItems3{
+    width: 40%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 45px;
+    padding: 24px 35px 16px;
+    border-radius: 20px;
+    background: linear-gradient(180deg,#202122,#3a3b47 55.56%);
+}
+
+
+.main__contenedor--tigo{
+    width: 5%;
+    margin-bottom: 20px;
+}
+
+
+.main__contenedor--parrafo4{
+    width: 80%;
+    margin: 20px 0;
+    text-align: center;
 }
 /* ---------------ESTILOS MAIN (CATA)---------------- */
 
