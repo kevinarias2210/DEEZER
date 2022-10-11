@@ -12,7 +12,7 @@
 
 body{
     background-color: #121216;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: roboto, Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
 
@@ -494,7 +494,7 @@ body{
     font-size: 38px;
     margin: 1rem;
 }
-.pCatalogo {
+.p_catalogo {
     font-size: 16px;
     margin: 1rem;
     color: #A4A4AD;
@@ -502,31 +502,31 @@ body{
     line-height: 1.5rem;
 }
 
-.listaCatalogo{
+.lista_catalogo{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
 }
-.listaCatalogo li{
+.lista_catalogo li{
     margin: 0.5rem;
     width: 200px;
 }
-.listaCatalogo p{
+.lista_catalogo p{
     text-align: center;
     line-height: 1.2rem;
     font-size: 1rem;
     color: #A4A4AD;
     padding: 0.5rem 0rem;
 }
-.listaCatalogo img{
+.lista_catalogo img{
     width: 200px;
     border-radius: 0.2rem;
 }
-.listaCatalogo a{
+.lista_catalogo a{
     text-decoration: none;
 }
 /* --------------------BOTON EXPLORA------------------------ */
-.botonParte3{
+.boton_parte3{
     margin: 2.5rem;
     padding: 18px 35px;
     border-radius: 45px;
@@ -555,13 +555,13 @@ body{
     margin: 5px 200px;
     width: 600px;
 }
-.novedadesContenedor{
+.novedades_contenedor{
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.novedadeContenedorLinea{
+.novedades_contenedor_linea{
     border: 1px solid #A4A4AD;
     width: 20%;
 }
@@ -571,7 +571,7 @@ body{
     margin: 1rem;
     text-align: center;
 }
-.desplegablesFaq{
+.desplegables_faq{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -586,12 +586,12 @@ summary{
     justify-content: space-between;
     margin: 0 20px;
 }
-.flechaSummary{
+.flecha_summary{
     width: 25px;
     rotate: -95deg;
     text-align: right;
 }
-.flechaSummary:hover{
+.flecha_summary:hover{
     rotate: 5deg;
 }
 .faq details{
@@ -602,10 +602,10 @@ summary{
     font-size: 28px;
     font-weight: bold;
 }
-.desplegablesFaq p{
+.desplegables_faq p{
     padding: 1.5rem;
 }
-.ultimoP{
+.ultimo_p{
     width: 40%;
     display: flex;
     align-items: center;
@@ -614,63 +614,63 @@ summary{
     margin: auto;
     padding: 4rem;
     color:#52525d;
-    font-size: 15px;
+    font-size: 14px;
 }
 /* ---------------ESTILOS FOOTER (ANDRE)---------------- */
-.imgFooterApp{
+.img_footer_app{
     text-align: center;
     margin: 2rem;
 }
-.imgFooterApp img{
+.img_footer_app img{
     width: 150px;
     height: 65px;
 }
-.compiladoListas{
+.compilado_listas{
     display: flex;
     font-size: 1rem;
     justify-content: space-around;
 }
-.listaFooter{
+.lista_footer{
     list-style-type: none;
 }
-.listaFooter .h5Footer{
+.lista_footer .h5_footer{
     font-size: 1rem;
     color: white;
     font-weight: 700;
 }
 
-.listaFooter li{
+.lista_footer li{
     margin: 1.6rem;
     color:  #A4A4AD; 
 }
-.listaFooter li a{
+.lista_footer li a{
     color:  #A4A4AD;
     text-decoration: none;
 }
 
 /* ----------FOOTER ULTIMA PARTE */
-.ultimoFooter{
+.ultimo_footer{
     display: flex;
     justify-content:space-between;
     margin: 5rem;
 }
-.redesSociales img{
+.redes_sociales{
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+}
+.redes_sociales img{
     width: 40px;
 }
-.imgLogoDeezer{
+.img_logo_deezer{
     height:40px;
     text-align: center; 
 }
-.seleccionIdioma select{
+.seleccion_idioma select{
     background-color: #121216;
     color: white;
     border: none;
 }
-.seleccionIdioma label{
+.seleccion_idioma label{
     color:#A4A4AD;
-}
-.redesSociales{
-    display: flex;
-    list-style-type: none;
-    text-decoration: none;
 }
