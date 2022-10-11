@@ -413,10 +413,15 @@ body{
 /* ----------FOOTER ULTIMA PARTE */
 .ultimoFooter{
     display: flex;
-    justify-content: space-around;
+    justify-content:space-between;
+    margin: 5rem;
 }
-.imgFooterFinal{
-    height:200px; 
+.redesSociales img{
+    width: 40px;
+}
+.imgLogoDeezer{
+    height:40px;
+    text-align: center; 
 }
 .seleccionIdioma select{
     background-color: #121216;
@@ -427,6 +432,7 @@ body{
     color:#A4A4AD;
 }
 .redesSociales{
+    display: flex;
     list-style-type: none;
     text-decoration: none;
 }
