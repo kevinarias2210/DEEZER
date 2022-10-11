@@ -555,6 +555,16 @@ body{
     margin: 5px 200px;
     width: 600px;
 }
+.novedadesContenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.novedadeContenedorLinea{
+    border: 1px solid #A4A4AD;
+    width: 20%;
+}
 /* -------------------FAQ------------------------------- */
 .faq h1{
     font-size: 38px;
@@ -569,6 +579,14 @@ body{
     text-align: justify;
     line-height: 1.5rem;
     padding: 2rem;
+}
+.flechaSummary{
+    width: 25px;
+    rotate: -95deg;
+    text-align: right;
+}
+.flechaSummary:hover{
+    rotate: 5deg;
 }
 .faq details{
     width: 40%;
