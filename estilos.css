@@ -105,8 +105,33 @@ body{
     width: 100%;
 }
 
+.main_1{
+    position: absolute;
+    width: 100%;
+    top: -1800px;
+    visibility: hidden;
+}
+
+.main_2{
+    position: absolute;
+    width: 100%;
+    top: 2000px;
+    visibility: hidden;
+}
 
 .main__contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__contenedor_1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main__contenedor_2{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -166,6 +191,9 @@ body{
     margin-bottom: 20px;
 }
 
+.main__contenedor--subtitulos_1{
+    font-size: 35px;
+}
 
 
 .main__contenedor--parrafo{
@@ -281,6 +309,180 @@ body{
     background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
 }
 /* ---------------ESTILOS MAIN (CATA)---------------- */
+
+.CATA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botton_type_1 {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    height: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botton_type_2 {
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    height: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.botton {
+    padding: 10px;
+    border: 1px solid #BEBEC7;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.botton_text {
+    position: relative;
+}
+
+.botton_text_icon {
+    height: 15px;
+    left: 360px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.botton_text_icon_2 {
+    height: 15px;
+    left: 390px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.botton_text_porcent {
+    padding: 4.2px 10px;
+    top: -4px;
+    right: -3px;
+    border-radius: 100px;
+    align-items: center;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+    position:absolute;
+}
+
+#click_event {
+    visibility: hidden;
+    display: none;
+}
+
+#click_event:checked ~ .main_1 {
+    position: static;
+    visibility: visible;
+}
+
+#click_event:checked ~ .botton_type_1{
+    visibility: hidden;
+    display: none;
+}
+
+#click_event2 {
+    visibility: hidden;
+    display: none;
+}
+
+#click_event2:checked ~ .main_2 {
+    position: static;
+    visibility: visible;
+}
+
+#click_event2:checked ~ .botton_type_2{
+    visibility: hidden;
+    display: none;
+}
+
+.titulo {
+    text-align: center;
+    font-weight: bold;   
+    color: white;
+}
+
+.subtitulo {
+    color: #BEBEC7;
+    font-size: 16px;
+    padding: 0px 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+.botton_type_3 {
+    display: flex;
+    height: 100%;
+    font-size: 13px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.botton_type_3 a {
+    padding: 20px 40px;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+.sections {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section_type_1 {
+    width: 41%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section_type_1 .titulo{
+    font-size: 38px;
+    margin-bottom: 24px;
+}
+
+.section_type_1 .subtitulo {
+    margin-bottom: 48px;
+}
+
+.section_type_2 {
+    width: 43%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section_type_2 .titulo{
+    font-size: 23.8px;
+    margin-bottom: 12px;
+}
+
+.section_type_2 img {
+    display: flex;
+    width: 180%;
+}
+
+.botton_type_2__5 {
+    margin-top: 48px;
+}
 
 /* ---------------ESTILOS MAIN (ANDRE)---------------- */
 /* ------------------CATALOGO------------------------ */
