@@ -282,6 +282,137 @@ body{
 }
 /* ---------------ESTILOS MAIN (CATA)---------------- */
 
+.main{
+    width: 100%;
+}
+
+
+.CATA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.botton_type_1 {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botton {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.botton_text {
+    position: relative;
+}
+
+.botton_text_icon {
+    height: 15px;
+    left: 355px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.botton_text_porcent {
+    padding: 4.2px 10px;
+    top: -4px;
+    right: -3px;
+    border-radius: 100px;
+    align-items: center;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+    position:absolute;
+}
+
+
+.titulo {
+    text-align: center;
+    font-weight: bold;   
+    color: white;
+}
+
+
+.subtitulo {
+    color: #BEBEC7;
+    font-size: 16px;
+    padding: 0px 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+.botton_type_2 {
+    display: flex;
+    height: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.botton_type_2 a {
+    padding: 20px 25px;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
+.section_type_1 {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section_type_1 .titulo{
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+
+.section_type_1 .subtitulo {
+    margin-bottom: 48px;
+}
+
+
+.section_type_2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section_type_2 .titulo{
+    font-size: 29px;
+    margin-bottom: 12px;
+}
+
+.section_type_2 .subtitulo {
+}
+
+.section_type_2 img {
+    display: flex;
+    width: 174%;
+}
+
+.botton_type_2__5 {
+    margin-top: 48px;
+}
+
 /* ---------------ESTILOS MAIN (ANDRE)---------------- */
 
 /* ---------------ESTILOS FOOTER (ANDRE)---------------- */
