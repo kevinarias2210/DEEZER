@@ -561,24 +561,36 @@ body{
     margin: 1rem;
     text-align: center;
 }
-.faq{
-    text-align: justify;
-}
 .desplegablesFaq{
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: justify;
+    line-height: 1.5rem;
+    padding: 2rem;
 }
 .faq details{
     width: 40%;
+    margin: 1.5rem;
 }
 .faq summary{
     font-size: 28px;
     font-weight: bold;
 }
+.desplegablesFaq p{
+    padding: 1.5rem;
+}
 .ultimoP{
-    margin: 80px 200px;
-    color: #A4A4AD;
-    font-size: 14px;
-
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: auto;
+    padding: 4rem;
+    color:#52525d;
+    font-size: 15px;
 }
 /* ---------------ESTILOS FOOTER (ANDRE)---------------- */
 .imgFooterApp{
