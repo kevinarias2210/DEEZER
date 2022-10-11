@@ -190,36 +190,100 @@ body{
 /* ---------------ESTILOS MAIN (CATA)---------------- */
 
 /* ---------------ESTILOS MAIN (ANDRE)---------------- */
+/* ------------------CATALOGO------------------------ */
 .catalogo{
     text-align: center;
-    margin: 30px 165px;
+    margin: 30px 200px;
 }
+.catalogo h1{
+    font-size: 38px;
+    margin: 1rem;
+}
+.pCatalogo {
+    font-size: 16px;
+    margin: 1rem;
+    color: #A4A4AD;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
 .listaCatalogo{
     display: flex;
     justify-content: space-around;
     list-style-type: none;
 }
 .listaCatalogo li{
-    margin: 2rem;
+    margin: 0.5rem;
     width: 200px;
 }
-.listaCatalogo a{
-    justify-content: center;
+.listaCatalogo p{
+    text-align: center;
+    line-height: 1.2rem;
+    font-size: 1rem;
+    color: #A4A4AD;
+    padding: 0.5rem 0rem;
 }
 .listaCatalogo img{
-    margin: 2rem;
     width: 200px;
     border-radius: 0.2rem;
 }
+.listaCatalogo a{
+    text-decoration: none;
+}
+/* --------------------BOTON EXPLORA------------------------ */
+.botonParte3{
+    margin: 2.5rem;
+    padding: 18px 35px;
+    border-radius: 45px;
+    background-color: #FFFFFF;
+    color: black;
+    font-weight: 700;
+}
+/* ----------------------NOVEDADES---------------------- */
 .novedades{
     text-align: center;
-    margin: 30px 165px;
+    margin: 30px 200px;
+}
+.novedades p{
+    font-size: 16px;
+    margin: 1rem;
+    color: #A4A4AD;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+.novedades h1{
+    font-size: 38px;
+    margin: 1rem;
+}
+.novedades img{
+    text-align: center;
+    margin: 5px 200px;
+    width: 600px;
+}
+/* -------------------FAQ------------------------------- */
+.faq h1{
+    font-size: 38px;
+    margin: 1rem;
+    text-align: center;
 }
 .faq{
-    margin: 30px 165px;
+    text-align: justify;
+}
+.desplegablesFaq{
+    
+}
+.faq details{
+    width: 40%;
+}
+.faq summary{
+    font-size: 28px;
+    font-weight: bold;
 }
 .ultimoP{
-    margin: 80px 165px;
+    margin: 80px 200px;
+    color: #A4A4AD;
+    font-size: 14px;
+
 }
 /* ---------------ESTILOS FOOTER (ANDRE)---------------- */
 .imgFooterApp{
@@ -230,27 +294,46 @@ body{
     width: 150px;
     height: 65px;
 }
-.listasFooter{
+.compiladoListas{
     display: flex;
+    font-size: 1rem;
     justify-content: space-around;
-}
-
-footer h5{
-    font-size: 1.2rem;
 }
 .listaFooter{
     list-style-type: none;
 }
+.listaFooter .h5Footer{
+    font-size: 1rem;
+    color: white;
+    font-weight: 700;
+}
+
 .listaFooter li{
-    margin: 1rem;
-    color: #928683;
-    
+    margin: 1.6rem;
+    color:  #A4A4AD; 
 }
 .listaFooter li a{
-    margin: 1rem;
-    color: #928683;
+    color:  #A4A4AD;
     text-decoration: none;
 }
-.imgFooterFinal img{
-    width: 150px;
+
+/* ----------FOOTER ULTIMA PARTE */
+.ultimoFooter{
+    display: flex;
+    justify-content: space-around;
+}
+.imgFooterFinal{
+    height:200px; 
+}
+.seleccionIdioma select{
+    background-color: #121216;
+    color: white;
+    border: none;
+}
+.seleccionIdioma label{
+    color:#A4A4AD;
+}
+.redesSociales{
+    list-style-type: none;
+    text-decoration: none;
 }
