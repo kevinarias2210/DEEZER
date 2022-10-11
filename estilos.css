@@ -20,11 +20,53 @@ body{
     width: 100%;
 }
 
+
 .CATA {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.botton_type_1 {
+    display: flex;
+    flex-direction: column;
+    width: 48%;
+    height: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.botton {
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 100px;
+    color: white;
+    text-decoration: none;
+}
+
+.botton_text {
+    position: relative;
+}
+
+.botton_text_icon {
+    height: 15px;
+    left: 355px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.botton_text_porcent {
+    padding: 4.2px 10px;
+    top: -4px;
+    right: -3px;
+    border-radius: 100px;
+    align-items: center;
+    background: linear-gradient(69.06deg,#b84fdd -26.76%,#4965f4 44.6%,#2efb74 132.54%);
+    position:absolute;
 }
 
 
