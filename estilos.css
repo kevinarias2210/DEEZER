@@ -580,6 +580,12 @@ body{
     line-height: 1.5rem;
     padding: 2rem;
 }
+summary{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+}
 .flechaSummary{
     width: 25px;
     rotate: -95deg;
