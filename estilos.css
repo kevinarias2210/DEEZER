@@ -6,6 +6,7 @@
 /* ---------------ESTILOS GENERALES BODY---------------- */
 body{
     background-color: #121216;
+    font-family: Arial, Helvetica, sans-serif;
     color: #FFFFFF;
 }
 
@@ -14,6 +15,95 @@ body{
 /* ---------------ESTILOS MAIN (KEVIN)---------------- */
 
 /* ---------------ESTILOS MAIN (CATA)---------------- */
+
+.main{
+    width: 100%;
+}
+
+.CATA {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.titulo {
+    text-align: center;
+    font-weight: bold;   
+    color: white;
+}
+
+
+.subtitulo {
+    color: #BEBEC7;
+    font-size: 16px;
+    padding: 0px 20px;
+    line-height: 25px;
+    text-align: center;
+}
+
+
+.botton_type_2 {
+    display: flex;
+    height: 100%;
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 48px;
+}
+
+.botton_type_2 a {
+    padding: 20px 25px;
+    border: 1px solid white;
+    border-radius: 100px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+}
+
+
+.section_type_1 {
+    width: 48%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section_type_1 .titulo{
+    font-size: 42px;
+    margin-bottom: 24px;
+}
+
+.section_type_1 .subtitulo {
+    margin-bottom: 48px;
+}
+
+
+.section_type_2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section_type_2 .titulo{
+    font-size: 29px;
+    margin-bottom: 12px;
+}
+
+.section_type_2 .subtitulo {
+}
+
+.section_type_2 img {
+    display: flex;
+    width: 174%;
+}
+
+.botton_type_2__5 {
+    margin-top: 48px;
+}
 
 /* ---------------ESTILOS MAIN (ANDRE)---------------- */
 
