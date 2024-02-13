@@ -674,3 +674,148 @@ summary{
 .seleccion_idioma label{
     color:#A4A4AD;
 }
+
+
+/*Medida de celulares*/
+@media screen and (min-width: 281px) and (max-width: 500px){
+    .header__contenedor{
+        flex-direction: column;
+    }
+
+    .header__contenedor--logo{
+        width: 100%;
+        padding: 10px;
+        align-items: center;
+    }
+
+    .header__contenedor--dez{
+        width: 44%;
+        margin-right: 0;
+    }
+
+    .main__contenedor-titulo{
+        font-size: 24px;
+    }
+
+    .main__contenedor--miniItems{
+        width: 78%;
+        padding: 18px 10px 14px;
+    }
+
+    .main__contenedor--subtitulos{
+        font-size: 25px;
+    }
+
+    .main__contenedor--miniItems2{
+        width: 80%;
+        height: 556px;
+    }
+
+    .main__contenedor--miniItems3{
+        width: 80%;
+        height: 280px;
+        justify-content: flex-start;
+    }
+
+    .main__contenedor--tigo{
+        width: 26%;
+    }
+
+    .main__contenedor--button{
+        width: 100%;
+        padding: 15px 20px;
+    }
+
+    .main__contenedor--miniItems4{
+        width: 80%;
+        height: 540px;
+        padding: 26px 10px 16px;
+    }
+
+    .section_type_1{
+        width: 100%;
+    }
+
+    .botton_type_1{
+        width: 73%;
+    }
+
+    .botton_type_2{
+        width: 73%;
+    }
+
+    .botton_type_3{
+        justify-content: center;
+    }
+
+    .botton_type_3 a{
+        width: 77%;
+        padding: 11px 10px;
+    }
+
+    .section_type_2{
+        width: 88%;
+    }
+
+    .catalogo{
+        margin: 0;
+    }
+
+    .lista_catalogo{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .boton_parte3{
+        margin: 0.5rem;
+    }
+
+    .novedades{
+        margin: 0;
+    }
+
+    .novedades img{
+        width: 100%;
+        margin: 0;
+    }
+
+    .faq details{
+        width: 100%;
+    }
+
+    .faq details{
+        width: 100%;
+        margin: 0;
+    }
+
+    .ultimo_p{
+        width: 100%;
+        margin: 0;
+        padding: 2rem;
+    }
+
+    .compilado_listas{
+        flex-direction: column;
+    }
+
+    .ultimo_footer{
+        margin: 0;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .redes_sociales{
+        justify-content: center;
+    }
+
+    .dex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .seleccion_idioma{
+        display: flex;
+        justify-content: center;
+    }
+}
